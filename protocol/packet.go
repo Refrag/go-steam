@@ -2,10 +2,10 @@ package protocol
 
 import (
 	"bytes"
-	"github.com/golang/protobuf/proto"
 	"encoding/binary"
 	"fmt"
-	. "github.com/paralin/go-steam/protocol/steamlang"
+	. "github.com/Refrag/go-steam/protocol/steamlang"
+	"github.com/golang/protobuf/proto"
 )
 
 // TODO: Headers are always deserialized twice.

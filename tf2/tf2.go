@@ -4,10 +4,10 @@ Provides access to TF2 Game Coordinator functionality.
 package tf2
 
 import (
-	"github.com/paralin/go-steam"
-	. "github.com/paralin/go-steam/protocol/gamecoordinator"
-	. "github.com/paralin/go-steam/tf2/protocol"
-	"github.com/paralin/go-steam/tf2/protocol/protobuf"
+	"github.com/Refrag/go-steam"
+	. "github.com/Refrag/go-steam/protocol/gamecoordinator"
+	. "github.com/Refrag/go-steam/tf2/protocol"
+	"github.com/Refrag/go-steam/tf2/protocol/protobuf"
 )
 
 const AppId = 440

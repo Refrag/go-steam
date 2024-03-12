@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/paralin/go-steam"
-	"github.com/paralin/go-steam/gsbot"
-	"github.com/paralin/go-steam/protocol/steamlang"
+	"github.com/Refrag/go-steam"
+	"github.com/Refrag/go-steam/gsbot"
+	"github.com/Refrag/go-steam/protocol/steamlang"
 )
 
 func main() {

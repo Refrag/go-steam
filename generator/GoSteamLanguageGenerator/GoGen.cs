@@ -57,9 +57,9 @@ namespace GoSteamLanguageGenerator
 			sb.AppendLine("    \"io\"");
 			sb.AppendLine("    \"encoding/binary\"");
 			sb.AppendLine("    \"github.com/golang/protobuf/proto\"");
-			sb.AppendLine("    \"github.com/paralin/go-steam/steamid\"");
-			sb.AppendLine("    \"github.com/paralin/go-steam/rwu\"");
-			sb.AppendLine("   . \"github.com/paralin/go-steam/protocol/protobuf\"");
+			sb.AppendLine("    \"github.com/Refrag/go-steam/steamid\"");
+			sb.AppendLine("    \"github.com/Refrag/go-steam/rwu\"");
+			sb.AppendLine("   . \"github.com/Refrag/go-steam/protocol/protobuf\"");
 			sb.AppendLine(")");
 			sb.AppendLine();
 
@@ -128,7 +128,7 @@ namespace GoSteamLanguageGenerator
 			}
 			sb.AppendLine(")");
 			sb.AppendLine();
-            
+
 			EmitEnumStringer(enode, sb);
 		}
 

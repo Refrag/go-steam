@@ -3,7 +3,7 @@ package tradeoffer
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/paralin/go-steam/economy/inventory"
+	"github.com/Refrag/go-steam/economy/inventory"
 	"regexp"
 )
 
